@@ -12,10 +12,10 @@ document.addEventListener('DOMContentLoaded', () => {
         const username = usernameInput.value.trim();
         const password = passwordInput.value.trim();
   
-        if (username === 'Darshan' && password === '1234') {
+        if (username === 'Pavan' && password === '1234') {
           
           window.location.href = 'Homepage.html'; 
-        } else if(username === 'Darshan' && password === '1234'){
+        } else if(username === 'Pavan' && password === '1234'){
             window.location.href = 'Homepage.html'; 
         }else{
             alert('Invalid username or password. Please try again.');
